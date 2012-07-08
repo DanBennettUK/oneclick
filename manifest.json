@@ -11,9 +11,6 @@
    "version": "0.9",
    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
    "plugins": [
-      /**
-      { "path": "plugin-linux.so" },
-      **/
       { "path": "plugins/npTorqueChrome.dll" },
       { "path": "plugins/TorqueChrome.plugin" }
    ]   
